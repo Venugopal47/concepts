@@ -40,7 +40,7 @@ Ensuring that the cached data remains consistent with the original data source i
 
 ## Types of Caching
 
-Here visit this link to understand the cache memory https://youtu.be/IA8au8Qr3lo
+Here visit this link to understand the cache memory <https://youtu.be/IA8au8Qr3lo>
 
 ### 1. In-Memory Caching
 
@@ -70,7 +70,6 @@ Domain Name System (DNS) servers often cache DNS lookup data to help resolve hos
 
 ![DNS caching workflow](https://github.com/Venugopal47/concepts/assets/97158707/67df06a0-4d52-410f-88d1-b4f25aacd5b9)
 
-
 ### 7. CPU caching
 
 Most central processing units (CPUs) include high-speed caches, such as L1 and L2, that sit between the computer's main memory and the processor, providing the CPU with faster access to program instruction sets than the main memory can deliver.
@@ -82,5 +81,5 @@ Each caching approach has its strengths and is suited for different scenarios ba
 ## References
 
 * <https://www.techtarget.com/whatis/definition/caching>
-* https://youtu.be/6FyXURRVmR0?t=7
-* https://www.geeksforgeeks.org/caching-system-design-concept-for-beginners/
+* <https://youtu.be/6FyXURRVmR0?t=7>
+* <https://www.geeksforgeeks.org/caching-system-design-concept-for-beginners/>

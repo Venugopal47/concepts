@@ -40,7 +40,7 @@ Ensuring that the cached data remains consistent with the original data source i
 
 ## Types of Caching
 
-Here visit this link to understand the cache memory <https://youtu.be/IA8au8Qr3lo>
+[Levels in cache memory](https://youtu.be/IA8au8Qr3lo)
 
 ### 1. In-Memory Caching
 
@@ -80,6 +80,6 @@ Each caching approach has its strengths and is suited for different scenarios ba
 
 ## References
 
-* <https://www.techtarget.com/whatis/definition/caching>
-* <https://youtu.be/6FyXURRVmR0?t=7>
-* <https://www.geeksforgeeks.org/caching-system-design-concept-for-beginners/>
+* [Caching and Types](https://www.techtarget.com/whatis/definition/caching)
+* [Caching](https://youtu.be/6FyXURRVmR0?t=7>)
+* [Caching and working](https://www.geeksforgeeks.org/caching-system-design-concept-for-beginners/)

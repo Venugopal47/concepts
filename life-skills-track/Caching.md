@@ -2,13 +2,13 @@
 
 ## What is Caching
 
-Caching -- pronounced "cashing" -- is the process of storing data in a cache, which is a temporary storage area that facilitates faster access to data with the goal of improving application and system performance.
+Caching -- pronounced "cashing" -- is storing data in a cache, a temporary storage area that facilitates faster access to data to improve application and system performance.
 
-A common example of caching is a web browser that stores page content on a local disk for a designated period of time. When the user first visits the website, the content is downloaded from the web server and saved to a local directory. If the user revisits the website, the content comes from the local cache rather than the server. In this way, page content loads much faster into the browser than it would if it were downloaded from the web server. This saves the user time, reduces network traffic and minimizes the load on the web server.
+A common example of caching is a web browser that stores page content on a local disk for a designated period. When the user first visits the website, the content is downloaded from the web server and saved to a local directory. If the user revisits the website, the content comes from the local cache rather than the server. In this way, page content loads faster into the browser than it would if downloaded from the web server. This saves the user time, reduces network traffic, and minimizes the load on the web server.
 
 The idea behind caching is to temporarily copy data to a location that enables an application or component to access the data faster than if retrieving it from its primary source.
 
-![image](https://github.com/Venugopal47/concepts/assets/97158707/1b29f41e-2b34-4251-b21d-979d254aeda5)
+![Cache memory](https://github.com/Venugopal47/concepts/assets/97158707/1b29f41e-2b34-4251-b21d-979d254aeda5)
 
 ## Key Concepts Of Caching
 
@@ -22,7 +22,7 @@ When a requested piece of data is found in the cache, it is considered a cache h
 
 ### 3. Cache Miss
 
-If the requested data is not found in the cache, it's called a cache miss. This requires fetching the data from the original source (e.g., a database or a remote server), which is slower compared to a cache hit.
+If the requested data is not found in the cache, it's called a cache miss. This requires fetching the data from the source (e.g., a database or a remote server), which is slower compared to a cache hit.
 
 ### 4. Eviction Policy
 
@@ -34,17 +34,17 @@ Ensuring that the cached data remains consistent with the original data source i
 
 ## Benefits of Caching
 
-* Improved Performance: Caching reduces the latency associated with fetching data from slower storage systems or computing resources.
-* Scalability: Caching helps distribute the load on backend systems by serving frequently requested data from a cache, thus reducing the number of requests that hit the primary data   source.
-* Cost Efficiency: By reducing the need for frequent access to expensive resources (like databases or APIs), caching can lower operational costs.
+* **Improved Performance:** Caching reduces the latency associated with fetching data from slower storage systems or computing resources.
+* **Scalability:** Caching helps distribute the load on backend systems by serving frequently requested data from a cache, thus reducing the number of requests that hit the primary data   source.
+* **Cost Efficiency:** By reducing the need for frequent access to expensive resources (like databases or APIs), caching can lower operational costs.
 
 ## Types of Caching
 
-https://youtu.be/IA8au8Qr3lo
+Here visit this link to understand the cache memory https://youtu.be/IA8au8Qr3lo
 
 ### 1. In-Memory Caching
 
-Applications often use a system's main memory to cache data stored on disk. For example, a database management system (DBMS) might use caching for read-heavy workloads or complex query.
+Applications often use a system's main memory to cache data stored on disk. For example, a database management system (DBMS) might use caching for read-heavy workloads or complex queries.
 
 ### 2. Virtual memory caching
 
@@ -58,8 +58,7 @@ Web applications often cache data that comes from other systems. For example, a 
 
 Content delivery networks (CDNs) store cached data in multiple proxy servers that are geographically distributed to serve content to users in closer proximity to where they reside, helping to improve a web application's performance.
 
-![image](https://github.com/Venugopal47/concepts/assets/97158707/d6f2d367-2559-4bcf-89df-816dfe7e4a53)
-
+![CDN caching](https://github.com/Venugopal47/concepts/assets/97158707/d6f2d367-2559-4bcf-89df-816dfe7e4a53)
 
 ### 5. Storage controller caching
 
@@ -69,7 +68,7 @@ A storage controller might include a local cache to help streamline input/output
 
 Domain Name System (DNS) servers often cache DNS lookup data to help resolve host names to Internet Protocol (IP) addresses more quickly.
 
-![image](https://github.com/Venugopal47/concepts/assets/97158707/67df06a0-4d52-410f-88d1-b4f25aacd5b9)
+![DNS caching workflow](https://github.com/Venugopal47/concepts/assets/97158707/67df06a0-4d52-410f-88d1-b4f25aacd5b9)
 
 
 ### 7. CPU caching
@@ -78,8 +77,10 @@ Most central processing units (CPUs) include high-speed caches, such as L1 and L
 
 ## Conclusion
 
-Each caching approach has its strengths and is suited for different scenarios based on the specific performance and scaling challenges of project. Integrating caching effectively requires careful consideration of data access patterns, consistency requirements, and overall system architecture.
+Each caching approach has its strengths and is suited for different scenarios based on the specific performance and scaling challenges of the project. Integrating caching effectively requires careful consideration of data access patterns, consistency requirements, and overall system architecture.
 
 ## References
 
-<https://www.techtarget.com/whatis/definition/caching>
+* <https://www.techtarget.com/whatis/definition/caching>
+* https://youtu.be/6FyXURRVmR0?t=7
+* https://www.geeksforgeeks.org/caching-system-design-concept-for-beginners/
